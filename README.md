@@ -18,7 +18,6 @@ Built with the **MERN stack** (MongoDB, Express, React, Node.js), this project d
 
 Watch a **5-minute walkthrough** of Monran Coffee House in action:
 
-[![Watch the demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://your-video-link.com)
 
 🔗 **Video Link**: [https://docs.google.com/videos/d/1kWyzfFW5-Zt9EKrvlY8IKN-o5tPQdxfFNVZk4P9A-ks/edit?usp=sharing]  
 *(e.g., Loom, YouTube, or Google Drive)*
@@ -37,14 +36,15 @@ The demo covers:
 ### 🛒 Customer Experience
 | Menu View | Shopping Cart | Order Confirmation |
 |----------|---------------|--------------------|
-| ![Menu](docs/screenshots/menu.png) | ![Cart](docs/screenshots/cart.png) | ![Order](docs/screenshots/order.png) |
+| ![Menu](screenshots/menu.png) |
+![Order](screenshots/order-confirmation.png) |
 
 ### 👨‍💻 Admin Dashboard
 | Manage Products | View Live Orders |
 |------------------|------------------|
-| ![Admin Menu](docs/screenshots/admin-menu.png) | ![Orders](docs/screenshots/admin-orders.png) |
+| ![Admin Menu](screenshots/logged-in-admin dashboard.png) | ![Orders](docs/screenshots/admin-orders.png) |
 
-> Screenshots are stored in [`docs/screenshots/`](docs/screenshots/).
+> Screenshots are stored in [`screenshots/`](screenshots/).
 
 ---
 
