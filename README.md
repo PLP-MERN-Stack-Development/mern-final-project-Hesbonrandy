@@ -42,7 +42,7 @@ The demo covers:
 ### 👨‍💻 Admin Dashboard
 | Manage Products | View Live Orders |
 |------------------|------------------|
-| ![Admin Menu](screenshots/logged-in-admin dashboard.png) | ![Orders](screenshots/logged-in-admin.png) |
+| ![Admin Menu](screenshots/logged-in-admin.png) | ![Orders](screenshots/logged-in-admin.png) |
 
 > Screenshots are stored in [`screenshots/`](screenshots/).
 
