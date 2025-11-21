@@ -1,52 +1,88 @@
 # MERN Stack Capstone Project
 
-This assignment focuses on designing, developing, and deploying a comprehensive full-stack MERN application that showcases all the skills you've learned throughout the course.
+A full-stack MERN (MongoDB, Express, React, Node) capstone application demonstrating backend APIs, a responsive React frontend, authentication, data persistence, testing, and deployment.
 
-## Assignment Overview
+## Features
+- User authentication (signup, login, JWT)
+- CRUD operations with MongoDB
+- Responsive React UI with routing and form validation
+- Unit and integration tests for backend and frontend
+- Deployed production build
 
-You will:
-1. Plan and design a full-stack MERN application
-2. Develop a robust backend with MongoDB, Express.js, and Node.js
-3. Create an interactive frontend with React.js
-4. Implement testing across the entire application
-5. Deploy the application to production
+## Setup (Local)
 
-## Getting Started
+Prerequisites:
+- Node.js v18+ and npm
+- Git
+- MongoDB (local or Atlas)
 
-1. Accept the GitHub Classroom assignment
-2. Clone the repository to your local machine
-3. Follow the instructions in the `Week8-Assignment.md` file
-4. Plan, develop, and deploy your capstone project
+Steps:
+1. Clone the repo
+   - Open PowerShell and run:
+     git clone <your-repo-url>
+     cd mern-final-project-Hesbonrandy
+2. Install dependencies (root, server, client as applicable)
+   - From repo root:
+     npm install
+   - If separate server/client folders:
+     cd server && npm install
+     cd ../client && npm install
+3. Environment
+   - Create a .env file in the server folder with required variables (example):
+     MONGO_URI=<your-mongo-uri>
+     JWT_SECRET=<your-jwt-secret>
+     PORT=5000
+4. Run locally
+   - For combined start (adjust commands to your repo scripts):
+     npm run dev
+   - Or run server and client in separate terminals:
+     cd server && npm run dev
+     cd client && npm start
+5. Run tests
+   - npm test (or follow server/client test scripts)
 
-## Files Included
+## Deployed Application
+Live demo: https://your-deployed-app.example.com
+(Replace with your actual deployment URL)
 
-- `Week8-Assignment.md`: Detailed assignment instructions
+## Demo Video (5–10 min)
+Watch the walkthrough: https://youtu.be/your-demo-video
+(Replace with your recorded 5–10 minute demo link)
 
-## Requirements
+## Screenshots
+Place screenshots in ./docs/screenshots and reference them here.
 
-- Node.js (v18 or higher)
-- MongoDB (local installation or Atlas account)
-- npm or yarn
-- Git and GitHub account
-- Accounts on deployment platforms (Render/Vercel/Netlify/etc.)
+![Home Page](./docs/screenshots/home.png)
+![Create Item](./docs/screenshots/create-item.png)
+![User Profile](./docs/screenshots/profile.png)
 
-## Project Ideas
+## Project Structure (overview)
+- /server — Express API, routes, models
+- /client — React app (components, pages, services)
+- /tests — unit/integration tests
+- /docs/screenshots — images used in README
 
-The `Week8-Assignment.md` file includes several project ideas, but you're encouraged to develop your own idea that demonstrates your skills and interests.
+## Technologies
+- React, React Router, Redux (optional)
+- Node.js, Express
+- MongoDB (Mongoose)
+- JWT for authentication
+- Jest, Supertest, React Testing Library
 
-## Submission
+## Deployment
+- Example hosts: Vercel/Netlify (frontend), Render/Heroku (backend), MongoDB Atlas
+- Ensure CORS and environment variables are configured for production.
 
-Your project will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+## Screenshots & Assets
+1. Create a folder: ./docs/screenshots
+2. Add PNGs (home.png, create-item.png, profile.png)
+3. Commit them and update the image paths above if needed.
 
-1. Commit and push your code regularly
-2. Include comprehensive documentation
-3. Deploy your application and add the live URL to your README.md
-4. Create a video demonstration and include the link in your README.md
+## License
+Specify your license (e.g., MIT). Replace or remove if not applicable.
 
-## Resources
-
-- [MongoDB Documentation](https://docs.mongodb.com/)
-- [Express.js Documentation](https://expressjs.com/)
-- [React Documentation](https://react.dev/)
-- [Node.js Documentation](https://nodejs.org/en/docs/)
-- [GitHub Classroom Guide](https://docs.github.com/en/education/manage-coursework-with-github-classroom) 
+## Commit & Push (example)
+Open PowerShell in the repo root:
+git add README.md docs/screenshots/*
+git commit -m "docs: update README with description, setup, demo and screenshots"
+git push
