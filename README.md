@@ -1,88 +1,61 @@
-# MERN Stack Capstone Project
+# ☕ Monran Coffee House – MERN Capstone Project
 
-A full-stack MERN (MongoDB, Express, React, Node) capstone application demonstrating backend APIs, a responsive React frontend, authentication, data persistence, testing, and deployment.
+Monran Coffee House is a full-stack web application that digitizes the café ordering experience. Customers can browse the coffee and food menu, add items to a shopping cart, place orders, and view their order history. Admin users can manage menu items and monitor incoming orders—making it a complete solution for small cafés looking to streamline service.
 
-## Features
-- User authentication (signup, login, JWT)
-- CRUD operations with MongoDB
-- Responsive React UI with routing and form validation
-- Unit and integration tests for backend and frontend
-- Deployed production build
+Built with the **MERN stack** (MongoDB, Express, React, Node.js), this project demonstrates modern full-stack development practices including JWT-based authentication, RESTful API design, responsive UI, testing, CI/CD, and cloud deployment.
 
-## Setup (Local)
+---
 
-Prerequisites:
-- Node.js v18+ and npm
+## 🔗 Live Application
+
+- **Frontend (Netlify)**: [https://monran-coffee-house.netlify.app](https://monran-coffee-house.netlify.app)  
+- **Backend API (Render)**: [https://monran-coffee-house.onrender.com](https://monran-coffee-house.onrender.com)
+
+
+---
+
+## 🎥 Video Demonstration
+
+Watch a **5-minute walkthrough** of Monran Coffee House in action:
+
+[![Watch the demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://your-video-link.com)
+
+🔗 **Video Link**: [https://docs.google.com/videos/d/1kWyzfFW5-Zt9EKrvlY8IKN-o5tPQdxfFNVZk4P9A-ks/edit?usp=sharing]  
+*(e.g., Loom, YouTube, or Google Drive)*
+
+The demo covers:
+- User registration & login
+- Browsing the menu
+- Adding items to cart and checking out
+- Viewing order history
+- Admin dashboard (product management)
+
+---
+
+## 📸 Screenshots
+
+### 🛒 Customer Experience
+| Menu View | Shopping Cart | Order Confirmation |
+|----------|---------------|--------------------|
+| ![Menu](docs/screenshots/menu.png) | ![Cart](docs/screenshots/cart.png) | ![Order](docs/screenshots/order.png) |
+
+### 👨‍💻 Admin Dashboard
+| Manage Products | View Live Orders |
+|------------------|------------------|
+| ![Admin Menu](docs/screenshots/admin-menu.png) | ![Orders](docs/screenshots/admin-orders.png) |
+
+> Screenshots are stored in [`docs/screenshots/`](docs/screenshots/).
+
+---
+
+## 🛠️ Local Setup
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) (v18 or higher)
+- [MongoDB Atlas account](https://www.mongodb.com/atlas) (or local MongoDB instance)
 - Git
-- MongoDB (local or Atlas)
 
-Steps:
-1. Clone the repo
-   - Open PowerShell and run:
-     git clone <your-repo-url>
-     cd mern-final-project-Hesbonrandy
-2. Install dependencies (root, server, client as applicable)
-   - From repo root:
-     npm install
-   - If separate server/client folders:
-     cd server && npm install
-     cd ../client && npm install
-3. Environment
-   - Create a .env file in the server folder with required variables (example):
-     MONGO_URI=<your-mongo-uri>
-     JWT_SECRET=<your-jwt-secret>
-     PORT=5000
-4. Run locally
-   - For combined start (adjust commands to your repo scripts):
-     npm run dev
-   - Or run server and client in separate terminals:
-     cd server && npm run dev
-     cd client && npm start
-5. Run tests
-   - npm test (or follow server/client test scripts)
-
-## Deployed Application
-Live demo: https://your-deployed-app.example.com
-(Replace with your actual deployment URL)
-
-## Demo Video (5–10 min)
-Watch the walkthrough: https://youtu.be/your-demo-video
-(Replace with your recorded 5–10 minute demo link)
-
-## Screenshots
-Place screenshots in ./docs/screenshots and reference them here.
-
-![Home Page](./docs/screenshots/home.png)
-![Create Item](./docs/screenshots/create-item.png)
-![User Profile](./docs/screenshots/profile.png)
-
-## Project Structure (overview)
-- /server — Express API, routes, models
-- /client — React app (components, pages, services)
-- /tests — unit/integration tests
-- /docs/screenshots — images used in README
-
-## Technologies
-- React, React Router, Redux (optional)
-- Node.js, Express
-- MongoDB (Mongoose)
-- JWT for authentication
-- Jest, Supertest, React Testing Library
-
-## Deployment
-- Example hosts: Vercel/Netlify (frontend), Render/Heroku (backend), MongoDB Atlas
-- Ensure CORS and environment variables are configured for production.
-
-## Screenshots & Assets
-1. Create a folder: ./docs/screenshots
-2. Add PNGs (home.png, create-item.png, profile.png)
-3. Commit them and update the image paths above if needed.
-
-## License
-Specify your license (e.g., MIT). Replace or remove if not applicable.
-
-## Commit & Push (example)
-Open PowerShell in the repo root:
-git add README.md docs/screenshots/*
-git commit -m "docs: update README with description, setup, demo and screenshots"
-git push
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/monran-coffee-house.git
+cd monran-coffee-house
